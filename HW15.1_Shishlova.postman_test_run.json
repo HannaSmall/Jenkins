@@ -1,0 +1,168 @@
+{
+	"id": "ffe74e81-526c-4ba1-91c8-553f738018a2",
+	"name": "HW15.1_ShishlovaHanna",
+	"timestamp": "2025-01-30T19:23:06.853Z",
+	"collection_id": "13112971-a6492fa6-b525-46e8-9d4d-7faadb04a104",
+	"folder_id": 0,
+	"environment_id": "13112971-76aa3568-c705-468a-80dc-5111de48c85e",
+	"totalPass": 27,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-01-30T19:23:04.725Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+			"name": "wildcard password",
+			"url": "https://qauto.forstudy.space/api/auth/signup",
+			"time": 46,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Validation: Cyrillic password": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 14,
+					"fail": 0
+				},
+				"Validation: empty password": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Validation: wildcard password": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Validation: password is less than 8 characters": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Validation: password is more than 15 characters": {
+					"pass": 1,
+					"fail": 1
+				},
+				"Validation: space character password": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Validation: Cyrillic password": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				46,
+				50,
+				52,
+				57,
+				52,
+				50,
+				46,
+				170,
+				44,
+				52,
+				45,
+				52,
+				47,
+				46
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Validation: empty password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: wildcard password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: password is less than 8 characters": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: password is more than 15 characters": false
+				},
+				{
+					"Status code is 400": true,
+					"Validation: space character password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: Cyrillic password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: Cyrillic password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: empty password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: wildcard password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: password is less than 8 characters": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: password is more than 15 characters": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: space character password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: Cyrillic password": true
+				},
+				{
+					"Status code is 400": true,
+					"Validation: Cyrillic password": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 809,
+	"collection": {
+		"requests": [
+			{
+				"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+				"method": "POST"
+			},
+			{
+				"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+				"method": "POST"
+			},
+			{
+				"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+				"method": "POST"
+			},
+			{
+				"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+				"method": "POST"
+			},
+			{
+				"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+				"method": "POST"
+			},
+			{
+				"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+				"method": "POST"
+			},
+			{
+				"id": "e9d7071c-670d-4af5-8be2-bad0d9fe6d48",
+				"method": "POST"
+			}
+		]
+	}
+}
